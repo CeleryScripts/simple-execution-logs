@@ -1,3 +1,15 @@
+-- < Settings > 
+local webhook = "";
+-- < Dont Change >
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CeleryScripts/simple-execution-logs/main/FixLoadstring.lua'))()
+task.wait(0.2)
+local v1 = "";
+if (game:GetService("UserInputService").TouchEnabled and (game:GetService("UserInputService").KeyboardEnabled == false)) then
+	v1 = "Mobile User";
+else
+	v1 = "PC or Console";
+end
+task.wait(0.2)
 local v2 = game:GetService("Players").LocalPlayer;
 local v3 = false;
 local v4 = identifyexecutor();
